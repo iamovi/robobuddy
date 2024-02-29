@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+* {
+  font-family: "Kode Mono", monospace;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #ffcc00, #ff6600);
+}
+
+.main {
+  background-color: #8cff8c;
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 1em;
+  margin: 1rem;
+  transition: transform 0.2s ease-in-out;
+  border-width: 0.2rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.main:hover {
+  transform: scale(1.05);
+}
+
+
+.robo_img {
+  width: 200px;
+}
+
+.SearchDiv {
+  padding: 2%;
+  position: sticky;
+  top: 10px;
+  z-index: 100;
+  
+}
+.Searchinput {
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.load {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.SearchBox {
+  position: sticky;
+  top: 5px;
+}
