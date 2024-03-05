@@ -1,1 +1,1 @@
-react practice on ZTM.
+react practice project on ZTM.
